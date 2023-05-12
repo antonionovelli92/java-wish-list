@@ -10,6 +10,7 @@ public class MainSet {
         Random random = new Random();
 
         while (numbersSet.size() < 5) {
+//        	da 2 a 12
             int randomNumber = random.nextInt(11) + 2;
             numbersSet.add(randomNumber);
         }
