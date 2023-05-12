@@ -20,7 +20,6 @@ public class Main {
             String continua = sc.nextLine();
             add = continua.toLowerCase().equals("s");
         } while (add);
-
         System.out.println("Va bene, ecco la lista dei tuoi desideri:");
         for (String wish : wishList) {
             System.out.println("- " + wish);
